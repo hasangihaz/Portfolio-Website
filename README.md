@@ -9,9 +9,9 @@ I am an undergraduate Physical Science student with an interest in Physics, Math
  Skills
 
 - C Programming
-- HTML
+- Python
+- Software Fundamentals
 - Problem Solving
-- Database Fundamentals
 - Teamwork
 
 Projects

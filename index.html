@@ -6,192 +6,204 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Personal Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-    <hr>
+    <div class="container">
 
-    
 
-    <header>
+        <header>
 
-        <h1>Hasangi Piyanethmi</h1>
+            <div class="profile-image">
+                <img src="profile.jpeg" alt="Profile Picture" width="150" height="150" style="border-radius: 50%; object-fit: cover;">
+            </div>
 
-        <p>
-            Physical Science Student | Science & Technology Enthusiast
-        </p>
+            <h1>Hasangi Piyanethmi</h1>
 
-    </header>
+            <p>
+                Physical Science Student | Science & Technology Enthusiast
+            </p>
 
-    <hr>
+        </header>
 
 
-   
+        <section>
 
-    <section>
+            <h2>About Me</h2>
 
-        <h2>About Me</h2>
+            <p>
+                Hello! My name is Hasangi Piyanethmi.
+                I am an undergraduate student at University of Sri Jayewardenepura,
+                with a strong interest in physics, mathematics, computer science,
+                and scientific computing.
+                I enjoy developing my technical skills through programming,
+                academic projects, and practical problem-solving.
+                I am particularly interested in combining computational methods
+                with scientific knowledge to explore and solve real-world problems.
+                I am always interested in learning new technologies,
+                improving my skills, and developing meaningful projects
+                that demonstrate my knowledge and creativity.
+            </p>
 
-        <p>
-             Hello! My name is Hasangi Piyanethmi.
-              I am an undergraduate student at University of Sri Jayewardenepura, with a strong interest in physics, mathematics, computer science, and scientific computing. 
-              I enjoy developing my technical skills through programming, academic projects, and practical problem-solving. 
-              I am particularly interested in combining computational methods with scientific knowledge to explore and solve real-world problems. 
-              I am always interested in learning new technologies, improving my skills, and developing meaningful projects that demonstrate my knowledge and creativity.
-        </p>
+        </section>
 
-    </section>
+        <section>
 
-    <hr>
+            <h2>Skills</h2>
 
+            <ul>
+                <li>C Programming</li>
+                <li>Python</li>
+                <li>Software Fundamentals</li>
+                <li>Problem Solving</li>
+                <li>Teamwork</li>
+            </ul>
 
-   
+        </section>
 
-    <section>
 
-        <h2>Skills</h2>
+        <section>
 
-        <ul>
-            <li>C Programming</li>
-            <li>Python</li>
-            <li>Software Fundamentals</li>
-            <li>Problem Solving</li>
-            <li>Teamwork</li>
-        </ul>
+            <h2>Projects</h2>
 
-    </section>
+            <table class="projects-table">
 
-    <hr>
+                <tr>
+                    <th>Project Name</th>
+                    <th>Description</th>
+                    <th>Technology Used</th>
+                </tr>
 
+                <tr>
+                    <td>
+                        MEDICARE — Smart Hospital & Resource Allocation System
+                    </td>
 
-   
+                    <td>
+                        A menu-driven hospital management system that manages
+                        patient registration, emergency priorities, hospital beds,
+                        wards, billing, waiting times, reports, and patient records.
+                    </td>
 
-    <section>
+                    <td>
+                        C Programming
+                    </td>
+                </tr>
 
-        <h2>Projects</h2>
+                <tr>
+                    <td>
+                        Movie Ticket Booking System
+                    </td>
 
-        <table border="1">
+                    <td>
+                        A command-line movie ticket booking system that allows
+                        users to view showtimes, select seats, make and cancel
+                        bookings, search customer bookings, apply discounts,
+                        and generate revenue reports.
+                    </td>
 
-            <tr>
-                <th>Project Name</th>
-                <th>Description</th>
-                <th>Technology Used</th>
-            </tr>
+                    <td>
+                        C Programming
+                    </td>
+                </tr>
 
-            <tr>
-                <td>MEDICARE — Smart Hospital & Resource Allocation System</td>
+                <tr>
+                    <td>
+                        Personal Portfolio Website
+                    </td>
 
-                <td>
-                    A menu-driven hospital management system that manages patient registration, emergency priorities, 
-                    hospital beds, wards, billing, waiting times, reports, and patient records.
-                </td>
+                    <td>
+                        A simple personal website that presents my information,
+                        skills, projects, and contact details.
+                    </td>
 
-                <td>C Programming</td>
-            </tr>
+                    <td>
+                        HTML
+                    </td>
+                </tr>
 
-            <tr>
-                <td>Movie Ticket Booking System</td>
+            </table>
 
-                <td>
-                 A command-line movie ticket booking system that allows users to view showtimes, 
-                 select seats, make and cancel bookings, search customer bookings, apply discounts, and generate revenue reports.  
-                </td>
+        </section>
 
-                <td>C Programming</td>
-            </tr>
+        <section>
 
-            <tr>
-                <td>Personal Portfolio Website</td>
+            <h2>Contact Me</h2>
 
-                <td>
-                    A simple personal website that presents my
-                    information, skills, projects and contact details.
-                </td>
+            <form class="contact-form">
 
-                <td>HTML</td>
-            </tr>
+                <label for="name">
+                    Name:
+                </label>
 
-        </table>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                >
 
-    </section>
+                <label for="email">
+                    Email:
+                </label>
 
-    <hr>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                >
 
+                <label for="message">
+                    Message:
+                </label>
 
-    
+                <textarea
+                    id="message"
+                    name="message"
+                ></textarea>
 
-    <section>
+                <button type="submit">
+                    Submit
+                </button>
 
-        <h2>Contact Me</h2>
+            </form>
 
-        <form>
+        </section>
 
-            <label for="name">Name:</label>
-            <br>
 
-            <input type="text" id="name" name="name">
+        <footer>
 
-            <br><br>
+            <p>
+                Connect with me:
+            </p>
 
+            <a
+                href="https://github.com/"
+                target="_blank"
+            >
+                GitHub
+            </a>
 
-            <label for="email">Email:</label>
-            <br>
+            |
 
-            <input type="email" id="email" name="email">
+            <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+            >
+                LinkedIn
+            </a>
 
-            <br><br>
+            |
 
+            <a href="mailto:hazion89@gmail.com">
+                Email
+            </a>
 
-            <label for="message">Message:</label>
-            <br>
+        </footer>
 
-            <textarea id="message"
-                      name="message"
-                      rows="6"
-                      cols="40"></textarea>
-
-            <br><br>
-
-
-            <button type="submit">
-                Submit
-            </button>
-
-        </form>
-
-    </section>
-
-    <hr>
-
-
-    
-
-    <footer>
-
-        <p>Connect with me:</p>
-
-        <a href="https://github.com/" target="_blank">
-            GitHub
-        </a>
-
-        |
-
-        <a href="https://www.linkedin.com/" target="_blank">
-            LinkedIn
-        </a>
-
-        |
-
-        <a href="haz:hazion89@gmail.com">
-            Email
-        </a>
-
-    
-
-    </footer>
-
-    <hr>
+    </div>
 
 </body>
 
